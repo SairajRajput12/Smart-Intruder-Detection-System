@@ -16,8 +16,7 @@ fps = 0
 frame_counter = 0
 
 # Read the video steram from the camera
-cap = cv2.VideoCapture('http://192.168.43.1:8080/video')
-# print(cap)
+cap = cv2.VideoCapture('http://192.168.18.4:8080/video')
 
 while(True):
     
